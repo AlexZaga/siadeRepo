@@ -1,0 +1,25 @@
+{
+  "name": "siadeapi",
+  "version": "1.0.0",
+  "description": "Sistema de Administracion de Edificios API",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Interprocsys",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.18.0",
+    "mariadb": "^2.0.5",
+    "npm": "^6.10.1",
+    "shelljs": "^0.8.3"
+  }
+}
